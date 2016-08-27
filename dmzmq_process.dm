@@ -1,4 +1,4 @@
-/hook/startup/proc/dmzmq_setup()
+/hook/global_init/proc/dmzmq_setup()
 	dmzmq_setup()
 	return 1
 /hook/shutdown/proc/dmzmq_shutdown()
